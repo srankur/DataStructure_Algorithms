@@ -14,7 +14,6 @@ class LinkedList():
 
     def __init__(self):
         self.Head = None
-
         pass
 
     def AddNode(self, Node, ):
