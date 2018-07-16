@@ -8,7 +8,7 @@ class BSTNode():
         self.left = None
         self.right = None
         self.parent= None
-
+        self.height = None
     '''
     Prints Tress in the Actual Tree like structure 
     '''
@@ -49,6 +49,39 @@ class BSTNode():
 class BST():
     def __init__(self):
         self.root = None
+
+    '''
+    Insert the Key recursively in the tree.
+    '''
+    def insertkey(self, key, subtree = None):
+        Node = BSTNode(key)
+
+        #One time operation, reserving root node
+        if self.root == None:
+            self.root = Node
+
+        #Assign Root to Subtree for Navigation deep in the tree
+        if subtree == None:
+            subtree = self.root
+
+        # Check if left of Subtree has correct location of Node
+        if Node.key < subtree.key:
+            if subtree.left == None:
+                Node.parent = subtree
+                subtree.left = Node
+            else:
+                self.insertNodeRec(key,subtree.left)
+
+        # Check if right of Subtree has correct location of Node
+        elif Node.key > subtree.key:
+            if subtree.right == None:
+                Node.parent = subtree
+                subtree.right = Node
+            else:
+                self.insertNodeRec(Node, subtree.right)
+
+        return Node
+
 
     '''
     Insert the Node recursively in the tree.
@@ -172,6 +205,7 @@ class BST():
 Driver Code Ahead
 '''
 
+'''
 bst = BST()
 bst.insertNodeRec(BSTNode(10))
 bst.insertNodeRec(BSTNode(20))
@@ -181,13 +215,17 @@ bst.insertNodeRec(BSTNode(2))
 bst.insertNodeRec(BSTNode(56))
 bst.insertNodeRec(BSTNode(60))
 bst.insertNodeRec(BSTNode(40))
+Node = bst.insertkey(200)
+
 print (bst)
+print (Node)
 #bst.inorderTraversal(bst.root)
 result = bst.findkey(56)
 if result != None:
     print("found")
 else:
     print("Better Luck Next time")
+'''
 
 #bst.deleteNode(20)
-print (bst)
+#print (bst)
