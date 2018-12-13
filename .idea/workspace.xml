@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a855d6f-25d9-472f-8f30-029799049ec9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/6.006_MIT/Hashing/Hash.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.006_MIT/Hashing/Rabin-karp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.006_MIT/Tree/binary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.006_MIT/Graph/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.006_MIT/Graph/disjoint_sets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.006_MIT/Graph/graph_adjacency_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/Rotation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.006_MIT/Tree/BST.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.006_MIT/Tree/BST.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.006_MIT/Tree/avl.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.006_MIT/Tree/avl.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,46 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="675">
-      <file leaf-file-name="algorithms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/algorithms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedList.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6.006_MIT/LinkedList/LinkedList.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BST.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6.006_MIT/Tree/BST.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="avl.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6.006_MIT/Tree/avl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rabin-karp.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6.006_MIT/Hashing/Rabin-karp.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -66,20 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hash.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6.006_MIT/Hashing/Hash.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="420">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generate.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/generate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1512">
-              <caret line="40" column="56" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="56" />
+            <state relative-caret-position="1680">
+              <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -87,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PCard.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../openCV/RPI/PCard.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1512">
@@ -99,11 +58,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="binary.py" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6.006_MIT/Tree/binary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3403">
-              <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+            <state relative-caret-position="6216">
+              <caret line="148" column="42" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6.006_MIT/Graph/graph_adjacency_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1712">
+              <caret line="167" column="35" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6.006_MIT/Graph/disjoint_sets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="15" selection-start-line="15" selection-end-line="25" selection-end-column="28" />
+              <folding>
+                <marker date="1534348416747" expanded="true" signature="167:172" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonBasics/MissingElem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1224">
+              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Array/Rotation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -143,6 +141,11 @@
         <option value="$PROJECT_DIR$/6.006_MIT/Hashing/Rabin-karp.py" />
         <option value="$PROJECT_DIR$/6.006_MIT/Hashing/Hash.py" />
         <option value="$PROJECT_DIR$/6.006_MIT/Tree/binary.py" />
+        <option value="$PROJECT_DIR$/6.006_MIT/Graph/disjoint_sets.py" />
+        <option value="$PROJECT_DIR$/6.006_MIT/Graph/__init__.py" />
+        <option value="$PROJECT_DIR$/6.006_MIT/Graph/graph_adjacency_list.py" />
+        <option value="$PROJECT_DIR$/PythonBasics/MissingElem.py" />
+        <option value="$PROJECT_DIR$/Array/Rotation.py" />
       </list>
     </option>
   </component>
@@ -167,25 +170,12 @@
             <path>
               <item name="Algo_DataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algo_DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="6.006_MIT" type="462c0819:PsiDirectoryNode" />
+              <item name="Array" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algo_DataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algo_DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="6.006_MIT" type="462c0819:PsiDirectoryNode" />
-              <item name="Hashing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algo_DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algo_DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="6.006_MIT" type="462c0819:PsiDirectoryNode" />
-              <item name="Sortings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algo_DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algo_DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="6.006_MIT" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonBasics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algo_DataStructure" type="b2602c69:ProjectViewProjectNode" />
@@ -220,25 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.binary">
-    <configuration name="BST" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algo_DS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6.006_MIT/Tree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.006_MIT/Tree/BST.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.Rotation">
     <configuration name="Hash" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algo_DS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,8 +228,11 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="LinkedList (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MissingElem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algo_DS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,17 +240,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6.006_MIT/LinkedList" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonBasics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.006_MIT/LinkedList/LinkedList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonBasics/MissingElem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="avl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Rotation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algo_DS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,15 +261,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6.006_MIT/Tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.006_MIT/Tree/avl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Rotation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="binary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algo_DS" />
@@ -310,21 +291,45 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="graph_adjacency_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algo_DS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6.006_MIT/Graph" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.006_MIT/Graph/graph_adjacency_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.LinkedList (1)" />
-      <item itemvalue="Python.BST" />
-      <item itemvalue="Python.avl" />
       <item itemvalue="Python.Hash" />
       <item itemvalue="Python.binary" />
+      <item itemvalue="Python.graph_adjacency_list" />
+      <item itemvalue="Python.MissingElem" />
+      <item itemvalue="Python.Rotation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.binary" />
+        <item itemvalue="Python.Rotation" />
         <item itemvalue="Python.Hash" />
-        <item itemvalue="Python.avl" />
-        <item itemvalue="Python.BST" />
-        <item itemvalue="Python.LinkedList (1)" />
+        <item itemvalue="Python.MissingElem" />
+        <item itemvalue="Python.graph_adjacency_list" />
+        <item itemvalue="Python.binary" />
       </list>
     </recent_temporary>
   </component>
@@ -345,27 +350,24 @@
     <frame x="3840" y="35" width="3840" height="2125" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19902386" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18863937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4972885" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42634797" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49527514" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -385,10 +387,12 @@
           <line>246</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Array/Rotation.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -396,21 +400,35 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="18" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="self.has_path_sum(tree.left, sum-tree.key)" />
-        <watch expression="self.has_path_sum(tree.right, sum-tree.key)" />
-        <watch expression="_, lres" />
-        <watch expression="_,rres" />
-        <watch expression="lres" language="Python" />
-        <watch expression="rres" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>A[i] ^ (i+1) != 0</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>A[i]^i == 1</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result[edge_count+1] = (u,v)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cycle[next_vertex.getId()]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>rres</expression-string>
         <language-id>Python</language-id>
@@ -434,113 +452,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/6.006/Sorting/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/6.006/Sorting/insertionSort.py" />
-    <entry file="file://$PROJECT_DIR$/6.006/Sorting/binarySearch.py" />
-    <entry file="file://$PROJECT_DIR$/6.006/Sorting/mergeSort.py" />
-    <entry file="file://$PROJECT_DIR$/6.006/Sorting/Heap.py" />
-    <entry file="file://$PROJECT_DIR$/../openCV/RPI/PCard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/algorithms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/generate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="40" column="56" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/peak.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1806">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6.006/Sorting/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/6.006/Sorting/insertionSort.py" />
-    <entry file="file://$PROJECT_DIR$/6.006/Sorting/binarySearch.py" />
-    <entry file="file://$PROJECT_DIR$/6.006/Sorting/mergeSort.py" />
-    <entry file="file://$PROJECT_DIR$/6.006/Sorting/Heap.py" />
-    <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/algorithms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/generate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="40" column="56" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/peak.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1806">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6.006/Sorting/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/6.006/Sorting/insertionSort.py" />
-    <entry file="file://$PROJECT_DIR$/6.006/Sorting/binarySearch.py" />
-    <entry file="file://$PROJECT_DIR$/6.006/Sorting/mergeSort.py" />
-    <entry file="file://$PROJECT_DIR$/6.006/Sorting/Heap.py" />
     <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/problem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -578,50 +489,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/generate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="40" column="56" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/algorithms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/6.006/Sorting/insertionSort.py" />
     <entry file="file://$PROJECT_DIR$/6.006/Sorting/binarySearch.py" />
     <entry file="file://$PROJECT_DIR$/6.006/Sorting/heapSort.py" />
     <entry file="file://$PROJECT_DIR$/6.006/Sorting/mergeSort.py" />
     <entry file="file://$PROJECT_DIR$/6.006/Sorting/Heap.py" />
-    <entry file="file://$PROJECT_DIR$/../openCV/RPI/PCard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonBasics/LinkedList.py" />
     <entry file="file://$PROJECT_DIR$/6.006_MIT/Tree/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/6.006_MIT/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/6.006_MIT/Hashing/Hash.py">
+    <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/algorithms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="546">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1186024617/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <caret line="806" column="8" selection-start-line="806" selection-start-column="8" selection-end-line="806" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -632,12 +520,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6.006_MIT/Hashing/Rabin-karp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/6.006_MIT/Graph/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/6.006_MIT/Tree/BST.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -653,17 +537,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/cv/lib/python3.6/codecs.py">
+    <entry file="file://$PROJECT_DIR$/6.006_MIT/Hashing/Rabin-karp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        <state relative-caret-position="126">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../openCV/RPI/PCard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/6.006_MIT/Tree/binary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3403">
-          <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+        <state relative-caret-position="6216">
+          <caret line="148" column="42" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.006_MIT/Graph/disjoint_sets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="15" selection-start-line="15" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <marker date="1534348416747" expanded="true" signature="167:172" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/generate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.006_MIT/Hashing/Hash.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.006_MIT/Graph/graph_adjacency_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1712">
+          <caret line="167" column="35" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonBasics/MissingElem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1224">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/cv/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/Rotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
