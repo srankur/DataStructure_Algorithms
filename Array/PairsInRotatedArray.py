@@ -30,5 +30,34 @@ def findpair(arr, sum):
 
 
 
-def findPivot(arr, low, high)
+def findPivot(arr, low, high):
 
+    # Base Cases:
+    #Base Case#1: Array is not reotated
+    if high < low:
+        return -1
+
+    # Base Case#2: There is one element.
+    if low == high:
+        return low
+
+    # Calculate mid to check neighbours
+    mid = int((low + high)/2)
+
+    if arr[mid] < arr[mid - 1]:
+        return mid -1
+
+    if arr[mid] > arr[mid + 1]:
+        return mid
+
+    if arr[low] <= arr[mid]:
+        return findPivot(arr, mid+1, high )
+    return findPivot(arr, low, mid)
+
+
+
+
+# driver Code
+arr = [3,4,5,6,7,1,2]
+
+print (findpair(arr,3))
