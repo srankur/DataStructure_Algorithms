@@ -10,6 +10,7 @@ def findpair(arr, sum):
     #Arguments: Low= 0th index, High= Length of array -1, Array
     #returns -1 if not found
     pivotIndex = findPivot(arr,0, length -1 )
+    pairs = []
 
     if pivotIndex == -1:
         l = 0
@@ -20,13 +21,14 @@ def findpair(arr, sum):
 
     while l!= r:
         if arr[l] + arr[r] == sum:
-            return True
+            pairs.append((arr[l], arr[r]))
+            return pairs, True
         # 4,5,6,38,1,2,10
         if arr[l] + arr[r] < sum:
             l = (l+1) % length
         else:
             r= (r -1 + length) % length
-    return False
+    return pairs, False
 
 
 
@@ -59,5 +61,8 @@ def findPivot(arr, low, high):
 
 # driver Code
 arr = [3,4,5,6,7,1,2]
-
-print (findpair(arr,3))
+pairs, result = findpair(arr,1200)
+if result == True:
+    print ("pairs %s" % pairs)
+else:
+    print("pair not found")
