@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a855d6f-25d9-472f-8f30-029799049ec9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/6.006_MIT/Graph/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.006_MIT/Graph/disjoint_sets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.006_MIT/Graph/graph_adjacency_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Rotation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/PairsInRotatedArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/SearchRoatedArray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Rotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/Rotation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,42 +25,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6.006_MIT/Hashing/Hash.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/generate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../openCV/RPI/PCard.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1512">
-              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6.006_MIT/Tree/binary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6216">
+            <state relative-caret-position="-1835">
               <caret line="148" column="42" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="42" />
             </state>
           </provider>
@@ -70,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6.006_MIT/Graph/graph_adjacency_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1712">
+            <state relative-caret-position="-934">
               <caret line="167" column="35" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="35" />
             </state>
           </provider>
@@ -79,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6.006_MIT/Graph/disjoint_sets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="15" selection-start-line="15" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="672">
+              <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
               <folding>
                 <marker date="1534348416747" expanded="true" signature="167:172" ph="..." />
               </folding>
@@ -91,17 +57,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonBasics/MissingElem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1224">
+            <state relative-caret-position="-1499">
               <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Array/Rotation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="-1667">
+              <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Array/SearchRoatedArray.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Array/PairsInRotatedArray.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -146,14 +130,16 @@
         <option value="$PROJECT_DIR$/6.006_MIT/Graph/graph_adjacency_list.py" />
         <option value="$PROJECT_DIR$/PythonBasics/MissingElem.py" />
         <option value="$PROJECT_DIR$/Array/Rotation.py" />
+        <option value="$PROJECT_DIR$/Array/SearchRoatedArray.py" />
+        <option value="$PROJECT_DIR$/Array/PairsInRotatedArray.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3840" />
-    <option name="y" value="-20" />
-    <option name="width" value="3840" />
-    <option name="height" value="2180" />
+    <option name="x" value="2974" />
+    <option name="y" value="311" />
+    <option name="width" value="3830" />
+    <option name="height" value="1598" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -210,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Rotation">
+  <component name="RunManager" selected="Python.SearchRoatedArray">
     <configuration name="Hash" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algo_DS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -274,7 +260,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="binary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SearchRoatedArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algo_DS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,11 +268,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6.006_MIT/Tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.006_MIT/Tree/binary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/SearchRoatedArray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -318,18 +304,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.Hash" />
-      <item itemvalue="Python.binary" />
       <item itemvalue="Python.graph_adjacency_list" />
       <item itemvalue="Python.MissingElem" />
       <item itemvalue="Python.Rotation" />
+      <item itemvalue="Python.SearchRoatedArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SearchRoatedArray" />
         <item itemvalue="Python.Rotation" />
         <item itemvalue="Python.Hash" />
         <item itemvalue="Python.MissingElem" />
         <item itemvalue="Python.graph_adjacency_list" />
-        <item itemvalue="Python.binary" />
       </list>
     </recent_temporary>
   </component>
@@ -350,13 +336,13 @@
     <frame x="3840" y="35" width="3840" height="2125" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18863937" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18863937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42634797" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.49527514" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3118399" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4947193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -388,9 +374,14 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Array/Rotation.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="19" />
+          <url>file://$PROJECT_DIR$/Array/SearchRoatedArray.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Array/SearchRoatedArray.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -401,6 +392,14 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="arr[mid]" />
+        <watch expression="arr[low]" />
+        <watch expression="arr [high]" />
+        <watch expression="arr[mid +1]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -532,8 +531,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/6.006_MIT/Tree/avl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="-4019">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.006_MIT/Hashing/Hash.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/generate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../openCV/RPI/PCard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-533">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.006_MIT/Tree/binary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1835">
+          <caret line="148" column="42" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.006_MIT/Graph/graph_adjacency_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-934">
+          <caret line="167" column="35" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.006_MIT/Graph/disjoint_sets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <marker date="1534348416747" expanded="true" signature="167:172" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonBasics/MissingElem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1499">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -544,75 +601,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../openCV/RPI/PCard.py">
+    <entry file="file://$PROJECT_DIR$/Array/Rotation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6.006_MIT/Tree/binary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6216">
-          <caret line="148" column="42" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6.006_MIT/Graph/disjoint_sets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="15" selection-start-line="15" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <marker date="1534348416747" expanded="true" signature="167:172" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../docs/Study/Algo_DS/6-006-fall-2011/6-006-fall-2011/contents/assignments/ps1/generate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6.006_MIT/Hashing/Hash.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6.006_MIT/Graph/graph_adjacency_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1712">
-          <caret line="167" column="35" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonBasics/MissingElem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1224">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="-1667">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/cv/lib/python3.6/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
+        <state relative-caret-position="257">
           <caret line="308" selection-start-line="308" selection-end-line="308" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Array/Rotation.py">
+    <entry file="file://$PROJECT_DIR$/Array/SearchRoatedArray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="630">
+          <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/PairsInRotatedArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
