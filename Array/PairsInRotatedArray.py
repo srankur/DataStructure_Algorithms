@@ -57,11 +57,39 @@ def findPivot(arr, low, high):
     return findPivot(arr, low, mid)
 
 
+def findMultiPairs(arr, Sum):
+    length = len(arr)
+    cnt = 0
+    pairs = []
+    # Find the Pivot element index
+    pivotIndex = findPivot(arr, 0, length-1)
+
+    if pivotIndex == -1:
+        l = 0
+        r = length -1
+    else:
+        l = (pivotIndex + 1) % n
+        r = pivotIndex
+    
+    # start  the Loop while l != r
+    while(l !=r ):
+        if arr[l] + arr[r] == Sum:
+            # increment the count and add the pair into the list.
+            cnt += 1
+            pairs.append((arr[l],arr[r]))
+
+            # Continue traversing the array for next pair of Sum
+
+
+
+
+
+
 
 
 # driver Code
 arr = [3,4,5,6,7,1,2]
-pairs, result = findpair(arr,1200)
+pairs, result = findpair(arr,12)
 if result == True:
     print ("pairs %s" % pairs)
 else:
