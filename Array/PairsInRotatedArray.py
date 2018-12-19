@@ -68,17 +68,32 @@ def findMultiPairs(arr, Sum):
         l = 0
         r = length -1
     else:
-        l = (pivotIndex + 1) % n
+        l = (pivotIndex + 1) % length
         r = pivotIndex
     
     # start  the Loop while l != r
-    while(l !=r ):
+    while( l !=r ):
         if arr[l] + arr[r] == Sum:
             # increment the count and add the pair into the list.
             cnt += 1
             pairs.append((arr[l],arr[r]))
 
             # Continue traversing the array for next pair of Sum
+            #check if l passes r
+            if (l == (r- 1 + length ) % length):
+                return pairs,cnt
+
+            l = ( l + 1) % length
+            r = (r -1 + length) % length
+
+        elif arr[l] + arr[r] < Sum:
+            l = (l + 1) % length
+
+        else:
+            r = (r - 1 + length) % length
+    return pairs, cnt
+
+
 
 
 
@@ -88,9 +103,16 @@ def findMultiPairs(arr, Sum):
 
 
 # driver Code
-arr = [3,4,5,6,7,1,2]
+arr = [3,4,5,6,6,7,8,12,1,2]
 pairs, result = findpair(arr,12)
+
+
 if result == True:
     print ("pairs %s" % pairs)
 else:
     print("pair not found")
+
+
+pairs, cnt = findMultiPairs(arr,12)
+
+print("pairs %s , cnt %s" %(pairs,cnt))
