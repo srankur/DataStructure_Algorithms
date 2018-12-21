@@ -26,23 +26,21 @@ Approach#2: 1- Execute the queries in a loop with k -> k + length time, loop wil
 
 '''
 
-
-
 def printMultiRotation(arr, n, k ):
     for i in range(k, k+n):
         print(arr[i % n], end = " ")
     print()
 
+
 # Driver code
 
 arr = [1, 3, 5, 7, 9]
 n = len(arr)
-k = 2;
+k = 2
 printMultiRotation(arr, n, k)
 
-k = 3;
+k = 3
 printMultiRotation(arr, n, k)
 
 k = 4
 printMultiRotation(arr, n, k)
-

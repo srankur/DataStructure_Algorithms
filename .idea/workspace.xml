@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a855d6f-25d9-472f-8f30-029799049ec9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/PairsInRotatedArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/PairsInRotatedArray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/PrintMultipleRotations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/PrintMultipleRotations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics/MissingElem.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics/MissingElem.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PythonBasics/MissingElem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1499">
-              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="639">
+              <caret line="62" column="39" lean-forward="true" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -88,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Array/PrintMultipleRotations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="1030">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -135,17 +135,17 @@
         <option value="$PROJECT_DIR$/6.006_MIT/Graph/disjoint_sets.py" />
         <option value="$PROJECT_DIR$/6.006_MIT/Graph/__init__.py" />
         <option value="$PROJECT_DIR$/6.006_MIT/Graph/graph_adjacency_list.py" />
-        <option value="$PROJECT_DIR$/PythonBasics/MissingElem.py" />
         <option value="$PROJECT_DIR$/Array/Rotation.py" />
         <option value="$PROJECT_DIR$/Array/SearchRoatedArray.py" />
         <option value="$PROJECT_DIR$/Array/PairsInRotatedArray.py" />
         <option value="$PROJECT_DIR$/Array/PrintMultipleRotations.py" />
+        <option value="$PROJECT_DIR$/PythonBasics/MissingElem.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2974" />
-    <option name="y" value="311" />
+    <option name="x" value="3367" />
+    <option name="y" value="247" />
     <option name="width" value="3830" />
     <option name="height" value="1598" />
   </component>
@@ -238,7 +238,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/PairsInRotatedArray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Rotation/PairsInRotatedArray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,7 +259,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/PrintMultipleRotations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Rotation/PrintMultipleRotations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -280,7 +280,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Rotation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Rotation/Rotation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,7 +301,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/SearchRoatedArray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Rotation/SearchRoatedArray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,14 +342,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3840" y="35" width="3840" height="2125" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18863937" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18863937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3118399" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3118399" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4947193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -595,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonBasics/MissingElem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1499">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/6.006_MIT/Hashing/Rabin-karp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -639,8 +631,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Array/PrintMultipleRotations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="1030">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonBasics/MissingElem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="62" column="39" lean-forward="true" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
         </state>
       </provider>
     </entry>
