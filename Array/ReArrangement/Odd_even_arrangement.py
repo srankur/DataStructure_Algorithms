@@ -44,3 +44,5 @@ if __name__ == "__main__":
     arr = [1,2,3,4,6,5]
     arr1 = [1, 2, 1, 4, 5, 6, 8, 8]
     oddevenarrangement(arr1)
+    print(arr1, sep=" ")
+
