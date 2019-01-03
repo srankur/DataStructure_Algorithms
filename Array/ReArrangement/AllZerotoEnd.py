@@ -31,7 +31,16 @@ def pushZerotoend(arr):
         count += 1
 
 
+def pushZerotoEndSwap(arr):
+    # step1: initialize pointer to track Zero
+    count = 0
 
+    # Step2: traverse therough the array and swap the element to last 0th place.
+    for i in range(len(arr)):
+        if arr[i] != 0:
+            arr[count],arr[i] = arr[i],arr[count]
+            count += 1
+        print(arr, sep=",", end="\n")
 
 
 
@@ -41,5 +50,8 @@ def pushZerotoend(arr):
 if __name__ == "__main__":
     arr = [1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0, 9]
     arr1 = [1, 9, 8, 8, 4, 0, 0, 2,4, 7, 0, 6, 0, 9]
-    pushZerotoend(arr1)
-    print(arr1,sep=" ")
+    #pushZerotoend(arr1)
+    #print(arr1,sep=" ")
+
+    pushZerotoEndSwap(arr)
+
