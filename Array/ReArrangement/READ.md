@@ -1,5 +1,5 @@
 ## Summary of Array Re-Arrangement questions type-
-## Following criteria may be applied towards the algorithm and output-
+### Following criteria may be applied towards the algorithm and output-
 ### Desired Output and Implementation restrictions:
 
 1. Outcome maintains the original order of the array
@@ -15,4 +15,5 @@
 5. smallest, largest, 2nd smallest, 2nd largest
 6. Arrange given numbers to form the biggest number
 7. Replace every array element by multiplication of previous and next
+
 
