@@ -7,6 +7,16 @@ Order of element doesn't matter
 
 """
 
+''' 
+Approach1: Doesn't maintain the elements order 
+1- Findout the length
+2- Since neg Number need to start at 0th position, initialize variable negNumber as 0. 
+   similarly PosNumber variable starts with 1st index
+3- loop the array and ensure -ve values at the neg positions
+4- loop the array and ensure +ve values at the pos positions 
+
+'''
+
 def rearrangePosneg(arr):
     # Step1: Find out the length
     length = len(arr)
@@ -36,8 +46,43 @@ def rearrangePosneg(arr):
 
     print(arr)
 
+
+
+
+
+'''
+Approach2: Doesn't maintain the order
+    1- partition the array in quicksort way considering 0 as the Pivot element
+    2- 
+'''
+
+
+def rearrangePosNegQuickSortway(arr):
+    # step1: find the length of the array
+    length = len (arr)
+    
+    negpos = 0
+    # partition the array in the quick sort way
+    for i in range(length):
+        if arr[i] < 0:
+            arr[negpos],arr[i] = arr[i],arr[negpos]
+            negpos += 1
+    
+   # NegPos saves the last location of the neg element in the array now.
+   # Start a loop from 0th and Negpos +1 (the postive number starts from here) and replace the alternate elements
+
+    posLoc = negpos + 1
+    startLoop = 1
+    while posLoc < length:
+       arr[startLoop],arr[posLoc] = arr[posLoc],arr[startLoop]
+       posLoc += 1
+       startLoop += 2
+    print(arr)
+
+
 # Driver code
 if __name__ == "__main__":
     arr = [-5, 3,2, -1, -4, 5, -6,-1,  -2, 8, 9, -1, -4]
     arr1 = [-1, 2, -3, 4, 5, 6, -7, 8, 9]
     rearrangePosneg(arr)
+    rearrangePosNegQuickSortway(arr)
