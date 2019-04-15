@@ -44,7 +44,9 @@ def getMissingNoExtraSpacePythonic(A):
 # Driver program to test above function
 if __name__ == "__main__":
     A = [1,2,4,5]
-    getMissing(A)
-    #miss = getMissingNo(A)
-    #miss = getMissingNoExtraSpace(A)
-    print("Missing Number from List:: %s" % miss)
+    miss = getMissingNo(A)
+    print("getMissingNo: %s" % miss)
+    miss = getMissingNoExtraSpace(A)
+    print("getMissingNoExtraSpace: %s" % miss)
+    miss = getMissingNoExtraSpacePythonic(A)
+    print("getMissingNoExtraSpacePythonic: %s" % miss)
